@@ -25,7 +25,7 @@
 <li><a href="http://43.205.237.12:31337/">http://43.205.237.12:31337/</a></li>
 </ul>
 <h2 id="steps-to-reproducepoc">Steps to Reproduce/PoC</h2>
-<p>The following steps indicate a proof of concept outlined in three(3) steps to reproduce and execute the issue.</p>
+<p>The following steps indicate a proof of concept outlined in steps to reproduce and execute the issue.</p>
 <p><strong>Step 1:</strong></p>
 <p>Discover user credentials by conducting a <strong>WPscan</strong> within the Kali Linux environment, it’s a method for identifying vulnerabilities and gathering information on WordPress sites. By this gained the admin user account’s “username” as “admin” as you can view in the below figure.</p>
 <p><a href="https://ibb.co/qBCgvpX"><img src="https://i.ibb.co/Wn0zLfq/1.png" alt="1" border="0"></a></p>
@@ -46,21 +46,22 @@
 <p><strong>Step 6:</strong></p>
 <p>Upon selecting the “<strong>Sent to Intruder</strong>” field, the interface in Intruder is displayed as shown below. Within this interface, the password entered should be chosen, followed by clicking “<strong>Add</strong>” and need to click “<strong>Start Attack</strong>”.</p>
 <p><a href="https://ibb.co/68PtpjR"><img src="https://i.ibb.co/xYjgcxS/10.jpg" alt="10" border="0"></a></p>
-<p><strong>Step 6:</strong></p>
+<p><strong>Step 7:</strong></p>
 <p>Upon selecting the “<strong>Sent to Intruder</strong>” field, the interface in Intruder is displayed as shown below. Within this interface, the password entered should be chosen, followed by clicking “<strong>Add</strong>” and need to click “<strong>Start Attack</strong>”.</p>
 <p><a href="https://ibb.co/hLjzFLs"><img src="https://i.ibb.co/LYW7dYS/9.jpg" alt="9" border="0"></a></p>
 <p>We can use GitHub common credentials. Using common passwords for brute force attacks on GitHub accounts is a common tactic employed by hackers because it leverages the likelihood that some users will choose easily guessable or commonly used passwords.</p>
 <p>Many users unfortunately still use weak or easily guessable passwords such as “password,” “123456,” or common words. Attackers can compile lists of these common passwords and systematically try them against GitHub accounts. GitHub has a vast user base, including individuals, organizations, and companies. This makes it an attractive target for attackers as compromising even a small percentage of accounts can yield valuable information or access to code repositories.</p>
 <p>GitHub passwords were utilized for this project to execute the brute force attack.</p>
-<p><strong>Step 6:</strong></p>
+<p><strong>Step 8:</strong></p>
 <p>The subsequent action involves inserting the passwords obtained from GitHub into the designated field under “<strong>Payload settings</strong>” within the Payloads tab of Burp Suite as shown in the below Picture and click “<strong>Start Attack</strong>.”</p>
 <p><a href="https://ibb.co/mv9zgGT"><img src="https://i.ibb.co/SQtvGPy/12.jpg" alt="12" border="0"></a></p>
 <p>At this point, Burp Suite will identify the correct password if it matches the one utilized by the admin, provided it is included in the provided list.</p>
 <p><a href="https://ibb.co/yN2KWQ0"><img src="https://i.ibb.co/6yQGgWY/13.jpg" alt="13" border="0"></a></p>
 <p>The below mentioned picture shows the password for the website we have attacked.</p>
 <p><a href="https://ibb.co/Nr5yn5m"><img src="https://i.ibb.co/T16gq6b/14.jpg" alt="14" border="0"></a></p>
-<p><strong>Step 6:</strong></p>
+<p><strong>Step 9:</strong></p>
 <p>By utilizing the discovered username and password, successful access to the website admin panel can be achieved.</p>
+<p><a href="https://ibb.co/VNXyKWQ"><img src="https://i.ibb.co/dcn9h0L/15.jpg" alt="15" border="0"></a></p>
 <h2 id="business-impact">Business Impact</h2>
 <p><strong>Data Breach:</strong> Successful brute force attacks can breach sensitive data like customer information and financial records, leading to legal liabilities, regulatory fines, and reputational damage.</p>
 <p><strong>Financial Losses:</strong> Brute force attacks may result in theft of funds, regulatory penalties, remediation costs, and potential loss of business, amplifying financial strain.</p>
